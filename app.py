@@ -7,7 +7,7 @@ import re
 app = Flask(__name__)
 CORS(app)
 
-API_KEY = "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"
+API_KEY = "Your_grok_API_Key"
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 def extract_video_id(url):
